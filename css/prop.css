@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Gothan-L';
+    src: url(fonte/Gotham-Light.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Gothan-B';
+    src: url(fonte/Gotham-Bold.otf) format(opentype);
+}
+
+:root {
+    --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
+    --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
+}
+
+@keyframes cores {
+    0% {
+        color: #565475;
+    }
+
+    25% {
+        color: #5B58A0;
+    }
+
+    50% {
+        color: #524ECA;
+    }
+
+    75% {
+        color: #3D37F5;
+    }
+
+    100% {
+        color: #565475;
+    }
+}
+
+@media (max-width:799px) {
+    header{
+        padding: 30px;
+    }
+
+    #proposta {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        font-family: var(--font-titulos);
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .paragrafo {
+        font-size: 2em;
+    }
+    
+    .title {
+        font-family: var(--font-titulos);
+        font-size: 2.5em;
+    }
+
+    .voltar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .img {
+        max-width: 500px;
+        margin-top: 1em;
+    }
+}
+
+@font-face {
+    font-family: 'Gothan-L';
+    src: url(fonte/Gotham-Light.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Gothan-B';
+    src: url(fonte/Gotham-Bold.otf) format(opentype);
+}
+
+:root {
+    --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
+    --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #7D90D1, #5D7ED1 );
+    background-attachment: fixed;
+    min-width: 300px;
+    max-width: 1300px;
+    font-size: 1.1em;
+    margin: auto;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--font-titulos);
+}
+
+.logo {
+    justify-content: left;
+    margin-top: 0.5em;
+}
+
+.tih {
+    text-align: center;
+    flex-grow: 1;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.667);
+    font-family: var(--font-titulos);
+}
+
+.tih > h1, h2 {
+    margin: 0px;
+    font-family: var(--font-titulos);
+}
+
+#tudo {
+    background-color: white;
+    font-family: var(--font-titulos);
+    border-radius: 1.2em;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.title {
+    animation: cores 2s linear infinite;
+    font-family: var(--font-titulos);
+    font-size: 1.5em;
+}
+
+.voltar {
+    text-align: center;
+}
+
+.paragrafo {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3em;
+    margin-left: 1em;
+    padding: 0em 0.6em;
+    font-family: var(--font-paragrafo);
+}
+
+.img {
+    border-radius: 1.1em;
+}
