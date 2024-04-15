@@ -38,6 +38,18 @@
     --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
 }
 
+@media (max-width: 360px) {
+
+    .img1 {
+        max-width: 320px;
+    }
+
+    .img3 {
+        max-width: 320px;
+    }
+    
+}
+
 @media (max-width:600px){
 .imgd{
     display: flex;
