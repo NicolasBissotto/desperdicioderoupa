@@ -150,6 +150,7 @@ header {
 .logo {
     justify-content: left;
     margin-top: 0.5em;
+    cursor: pointer;
 }
 
 .tih {
@@ -298,6 +299,7 @@ gap: 10em;
     background-color: #90a1da;
     box-shadow: 2px 1px 5px 0px black;
     transition: 1s ease;
+    cursor: pointer;
 }
 
 .botao:hover {
