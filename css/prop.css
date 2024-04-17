@@ -157,7 +157,7 @@ article {
 .title {
     animation: cores 2s linear infinite;
     font-family: var(--font-titulos);
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .voltar {
@@ -183,6 +183,11 @@ article {
 #ongs {
     display: flex;
     flex-direction: column;
+}
+
+#ongs > .title {
+    font-size: 2em;
+    padding: 3em 0em 0em 0em;
 }
 
 #ongs > h2 {
