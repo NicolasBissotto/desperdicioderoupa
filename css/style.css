@@ -24,8 +24,8 @@
 }
 
 @font-face {
-    font-family: 'Gothan-L';
-    src: url(fonte/Gotham-Light.otf) format(opentype);
+    font-family: 'Gotham-O';
+    src: url(fonte/GothamOffice-Regular.otf) format(opentype);
 }
 
 @font-face {
@@ -34,8 +34,8 @@
 }
 
 :root {
-    --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
-    --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
+    --font-paragrafo:'Gothan-book', Arial, Helvetica, sans-serif;
+    --font-titulos: 'Gothan-B', Arial, Helvetica, sans-serif;
 }
 
 @media (max-width: 360px) {
@@ -143,11 +143,6 @@ font-size: 1.2em;
 }
 }
 
-:root {
-    --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
-    --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
-}
-
 body {
     background-image: linear-gradient(to top, #7D90D1, #5D7ED1 );
     background-attachment: fixed;
@@ -188,7 +183,7 @@ main {
 }
 
 main p {
-    font-family: var(--font-paragrafo);
+    font-weight: lighter;
 }
 
 main ul {
