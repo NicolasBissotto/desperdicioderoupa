@@ -37,6 +37,17 @@
     }
 }
 
+@media (max-width:390px) {
+    .img {
+        width: 280px;
+    }
+
+    .cras > img {
+        width: 200px;
+        margin: 0em;
+    }
+}
+
 @media (max-width:799px) {
     header{
         padding: 30px;
@@ -65,27 +76,23 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        font-size: 1.5em;
     }
 
     .img {
         max-width: 500px;
         margin-top: 1em;
     }
-}
 
-@font-face {
-    font-family: 'Gothan-L';
-    src: url(fonte/Gotham-Light.otf) format(opentype);
-}
+    #ongs > h2 {
+        text-align: center;
+    }
 
-@font-face {
-    font-family: 'Gothan-B';
-    src: url(fonte/Gotham-Bold.otf) format(opentype);
-}
-
-:root {
-    --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
-    --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
+    .direita {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
 }
 
 body {
@@ -128,6 +135,10 @@ header {
     border-radius: 1.2em;
 }
 
+section {
+    margin-bottom: 1em;
+}
+
 article {
     display: flex;
     flex-direction: row;
@@ -151,6 +162,8 @@ article {
 
 .voltar {
     text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
 }
 
 .paragrafo {
@@ -165,4 +178,42 @@ article {
 
 .img {
     border-radius: 1.1em;
+}
+
+#ongs {
+    display: flex;
+    flex-direction: column;
+}
+
+#ongs > h2 {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.direita {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.direita p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.cras {
+    text-align: center;
+}
+
+.cras > img {
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+.vila {
+    text-align: center;
+}
+
+.fundo {
+    text-align: center;
 }

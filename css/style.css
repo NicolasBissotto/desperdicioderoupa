@@ -50,6 +50,24 @@
     
 }
 
+@media (max-width:335px) {
+    .img1 {
+        width: 270px;
+    }
+
+    .img2 {
+        width: 270px;
+    }
+
+    .img3 {
+        width: 270px;
+    }
+
+    .link {
+        width: 270px;
+    }
+}
+
 @media (max-width:600px){
 .imgd{
     display: flex;
@@ -125,17 +143,17 @@ font-size: 1.2em;
 }
 }
 
-/*:root {
+:root {
     --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
     --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
-}*/
+}
 
 body {
     background-image: linear-gradient(to top, #7D90D1, #5D7ED1 );
     background-attachment: fixed;
     min-width: 300px;
     max-width: 1300px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin: auto;
     justify-content: center;
 }
