@@ -106,6 +106,10 @@ font-size: 1.2em;
         margin: 50px 0;
     }
 
+    .art1 {
+        margin-left: 6em;
+    }
+
     article h2{
         font-size: 24px;
     }
@@ -119,6 +123,7 @@ font-size: 1.2em;
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin-right: 8em;
     }
     
     section .art3 {
@@ -133,14 +138,16 @@ font-size: 1.2em;
 
     .img1{
         max-width: 320px;
+        margin-right: 2em;
     }
 
     .img2 {
     max-width: 320px;
     }
 
-    .imgart3 {
-        max-width: 320px;
+    .img3 {
+        max-width: 340px;
+        margin-right: 5em;
     }
     }
 
@@ -234,7 +241,7 @@ article  {
     text-align: justify;
     justify-content: center;
     align-items: center;
-    margin: 0px;
+    margin-top: 1em;
     gap: 5em;
 }
 
