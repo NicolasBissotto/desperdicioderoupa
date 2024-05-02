@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
 @font-face {
-    font-family: 'Gothan-L';
-    src: url(fonte/Gotham-Light.otf) format(opentype);
+    font-family: 'gotham-bold' ;
+    src: url('../fonte/Gotham-Bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: 'Gothan-B';
-    src: url(fonte/Gotham-Bold.otf) format(opentype);
+    font-family: 'gotham-meditalic' ;
+    src: url('../fonte/Gotham-MediumItalic.otf') format('opentype');
 }
 
 :root {
-    --font-paragrafo:'Gothan-L', Arial, Verdana, Helvetica, sans-serif;
-    --font-titulos: 'Gothan-B', Arial, Verdana, Helvetica, sans-serif;
+    --font-paragrafo: 'gotham-light', Arial, Helvetica, sans-serif;
+    --font-titulos: 'gotham-bold', Arial, Helvetica, sans-serif;
 }
 
 @keyframes cores {
@@ -135,6 +135,14 @@ header {
     border-radius: 1.2em;
 }
 
+main {
+    box-shadow: 0em 1em 1em 0em rgba(0, 0, 0, 0.483);
+}
+
+p {
+    font-family: var(--font-paragrafo);
+}
+
 section {
     margin-bottom: 1em;
 }
@@ -212,7 +220,7 @@ article {
 }
 
 .cras > img {
-    margin-left: 5em;
+    margin-left: 4.7em;
     margin-top: 1em;
 }
 
