@@ -39,6 +39,7 @@
 }
 
 @media (max-width:335px) {
+
     .img1 {
         width: 270px;
     }
@@ -107,7 +108,16 @@ font-size: 1.2em;
     }
 
     .art1 {
-        margin-left: 6em;
+        margin-left: 9em;
+    }
+
+    .art1 > h2 {
+        text-align: left;
+    }
+
+    .art1 > ul {
+        text-align: left;
+        margin-left: 1em;
     }
 
     article h2{
@@ -117,6 +127,7 @@ font-size: 1.2em;
     section .art2{
         display: flex;
         flex-direction: column;
+        gap: 0em;
     }
 
     section .contart2 {
@@ -128,12 +139,23 @@ font-size: 1.2em;
     
     section .art3 {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
 
+    .hdif {
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+        margin: 1em 1em 1em 1em;
+    }
+
+    .link {
+        margin-right: 5em;
+    }
+
     section .img2 {
-        margin: 0em;
+        margin: 1em 0em 0em 0em;
     }
 
     .img1{
@@ -142,7 +164,7 @@ font-size: 1.2em;
     }
 
     .img2 {
-    max-width: 320px;
+        max-width: 320px;
     }
 
     .img3 {
@@ -276,7 +298,7 @@ article  {
 
 .art3 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .hart3 {
@@ -286,10 +308,11 @@ article  {
 .title{
     display: flex;
     flex-direction: row;
-    text-align: justify;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 2em;
+    margin-top: 2em;
+    margin-left: 5em;
 }
 
 .dif{
@@ -311,6 +334,7 @@ article  {
     justify-content: center;
     align-items: center;
     text-decoration: none;
+    margin-left: 5em;
 }
 
 .botao {
