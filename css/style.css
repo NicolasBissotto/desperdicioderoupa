@@ -331,12 +331,12 @@ article  {
     font-size: 1.6em;
 }
 
-/*.img3 {
+.img3 {
     border-radius: 1em;
     margin-left: 5em;
     width: 400px;
     height: 500px;
-}*/
+}
 
 .link {
     display: flex;
@@ -379,7 +379,7 @@ article  {
     animation: cores 2s linear infinite;
 }
 
-.teste {
+/*.teste {
     color: transparent;
     text-align: center;
     background-image: url('../imagems/familiaa.jpg');
@@ -389,4 +389,4 @@ article  {
     background-attachment: fixed;
     height: 680px;
     margin: 1em 0em 1em 0em;
-}
+}*/
