@@ -64,7 +64,7 @@
     }
 
     .img3 {
-        max-width: 320px;
+        max-width: 300px;
     }
 
     .art1 > ul{
@@ -72,7 +72,7 @@
     }  
 }
 
-@media (max-width:600px){
+@media (max-width:600px) {
 .imgd{
     display: flex;
     flex-direction: row;
@@ -118,6 +118,10 @@ font-size: 1.2em;
     .art1 > ul {
         text-align: left;
         margin-left: 1em;
+    }
+
+    p {
+        font-family: var(--font-paragrafo);
     }
 
     article h2{
@@ -212,6 +216,7 @@ main {
     font-family: var(--font-titulos);
     border-radius: 1.2em;
     padding: 1em;
+    margin: 0 auto;
     box-shadow: 0em 1em 1em 0em rgba(0, 0, 0, 0.483);
 }
 
@@ -320,7 +325,7 @@ article  {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-top: 2em;
+    margin-top: 3em;
     margin-left: 5em;
 }
 
