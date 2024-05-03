@@ -122,6 +122,7 @@ font-size: 1.2em;
 
     p {
         font-family: var(--font-paragrafo);
+        margin-bottom: 1em;
     }
 
     article h2{
@@ -151,7 +152,7 @@ font-size: 1.2em;
         display: flex;
         flex-direction: column; 
         text-align: center;
-        margin: 1em 1em 1em 1em;
+        margin: -2em 7em 1em 1em;
     }
 
     .link {
