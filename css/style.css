@@ -73,6 +73,7 @@
 }
 
 @media (max-width:600px) {
+
 .imgd{
     display: flex;
     flex-direction: row;
@@ -120,10 +121,10 @@ font-size: 1.2em;
         margin-left: 1em;
     }
 
-    p {
+    /*p {
         font-family: var(--font-paragrafo);
-        margin-bottom: 1em;
-    }
+        font-size: 2em;
+    }*/
 
     article h2{
         font-size: 24px;
@@ -140,6 +141,7 @@ font-size: 1.2em;
         align-items: center;
         justify-content: center;
         margin-right: 8em;
+
     }
     
     section .art3 {
